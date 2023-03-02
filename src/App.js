@@ -1,9 +1,14 @@
+import GlobalStyle from "./assets/styles/GlobalStyle.js";
 
 function App() {
   return (
-    <div>
+    <>
+    <GlobalStyle />
+     <div>
      Hello Shortly!
     </div>
+    </>
+   
   );
 }
 
