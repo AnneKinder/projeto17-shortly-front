@@ -1,12 +1,11 @@
 import GlobalStyle from "./assets/styles/GlobalStyle.js";
+import LandingPage from "./pages/LandingPage/index.js";
 
 function App() {
   return (
     <>
     <GlobalStyle />
-     <div>
-     Hello Shortly!
-    </div>
+    <LandingPage />
     </>
    
   );

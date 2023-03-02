@@ -28,6 +28,7 @@ html, body, div, span, applet, object, iframe,
 			}
 			body {
 				line-height: 1;
+				font-family: 'Lexend Deca', sans-serif;
 			}
 			ol, ul {
 				list-style: none;
