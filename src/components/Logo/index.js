@@ -3,20 +3,20 @@ import logo from "../../assets/images/logo.png"
 
 export default function Logo(){
     return(
-        <LogoSty>
+        <Container>
          <img alt="logo" src={logo} />
-        </LogoSty>
+        </Container>
     )
 }
 
-const LogoSty = styled.div`
+const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 
     img{
-        height: 150px;
+        width: 28%;
     }
 
 `

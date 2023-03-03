@@ -5,7 +5,7 @@ export default function NavBarIn() {
  const name = 'USER'
 
     return (
-        <NavBarInSty>
+        <Container>
 
             <div className="left">
                 <div className="action">Seja bem-vindo(a), {name}</div>
@@ -17,11 +17,11 @@ export default function NavBarIn() {
                 <div className="action">Sair</div>
             </div>
           
-        </NavBarInSty>
+        </Container>
     )
 }
 
-const NavBarInSty = styled.div`
+const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items:center;

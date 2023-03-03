@@ -2,20 +2,19 @@ import styled from "styled-components";
 
 export default function NavBarOut() {
     return (
-        <NavBarOutSty>
+        <Container>
             <div className="action">Entrar</div>
             <div className="action">Cadastrar-se</div>
-        </NavBarOutSty>
+        </Container>
     )
 }
 
-const NavBarOutSty = styled.div`
+const Container = styled.div`
     display: flex;
     justify-content: end;
     align-items:center;
     width: 100%;
     height: 60px;
-    background-color: lightgreen;
     box-sizing: border-box;
     padding-right:170px;
 
