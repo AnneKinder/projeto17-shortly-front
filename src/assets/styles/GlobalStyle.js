@@ -51,7 +51,44 @@ html, body, div, span, applet, object, iframe,
 				border-spacing: 0;
 			}
 			
+			input{
+				width:50%;
+				height: 72px;
+				border: 1px solid rgba(120, 177, 89, 0.25);
+				box-shadow: 0px 4px 24px rgba(120, 177, 89, 0.12);
+				border-radius: 12px;
+				font-family: 'Lexend Deca';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 18px;
+				color: #9C9C9C;
+				padding-left:16px;
+				margin-bottom: 25px;
+  			}
+
+			button{
+				width: 182px;
+				height: 60px;
+				background: #5D9040;
+				border-radius: 12px;
+				font-family: 'Lexend Deca';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 16px;
+				line-height: 18px;
+				color: #FFFFFF;
+				border-color: transparent;
+			}
+
+			form {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;  
+				margin-top: 2%;
+			}
+
 
 `
-
 export default GlobalStyle

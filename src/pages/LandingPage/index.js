@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import Logo from "../../components/Logo"
-import NavBarIn from "../../components/NavBarIn/ĩndex"
 import NavBarOut from "../../components/NavBarOut"
 import RankList from "../../components/RankList"
 import Trophy from "../../components/Trophy"
@@ -10,7 +9,6 @@ export default function LandingPage(){
     return(
         <Container>
         <NavBarOut />
-        {/* <NavBarIn /> */}
         <Logo />
         <Trophy />
         <RankList />
