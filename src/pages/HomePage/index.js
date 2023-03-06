@@ -2,6 +2,7 @@ import styled from "styled-components"
 import Logo from "../../components/Logo"
 import NavBarIn from "../../components/NavBarIn"
 import NewLink from "../../components/NewLink"
+import UrlList from "../../components/UrlList"
 
 export default function HomePage(){
     return(
@@ -9,7 +10,7 @@ export default function HomePage(){
             <NavBarIn />
             <Logo />
             <NewLink />
-            <div> last shortened links</div>
+            <UrlList />
         </Container>
     )
 }
