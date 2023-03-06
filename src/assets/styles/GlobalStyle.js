@@ -52,7 +52,7 @@ html, body, div, span, applet, object, iframe,
 			}
 			
 			input{
-				width:50%;
+				width:48%;
 				height: 72px;
 				border: 1px solid rgba(120, 177, 89, 0.25);
 				box-shadow: 0px 4px 24px rgba(120, 177, 89, 0.12);
@@ -68,7 +68,7 @@ html, body, div, span, applet, object, iframe,
   			}
 
 			button{
-				width: 182px;
+				width: 9%;
 				height: 60px;
 				background: #5D9040;
 				border-radius: 12px;
@@ -79,6 +79,7 @@ html, body, div, span, applet, object, iframe,
 				line-height: 18px;
 				color: #FFFFFF;
 				border-color: transparent;
+				cursor: pointer;
 			}
 
 			form {
