@@ -1,11 +1,44 @@
 import styled from "styled-components";
 
 export default function RankList() {
+
+    const array = [
+        {
+            name: "Anne",
+            qty:500,
+            views: 430
+        },
+        {
+            name: "Ellen",
+            qty:2,
+            views: 6
+        },
+        {
+            name: "Klaus",
+            qty:67,
+            views: 13
+        },
+        {
+            name: "Clayton",
+            qty:1000,
+            views: 500
+        },
+        {
+            name: "Janinha",
+            qty:10,
+            views: 30
+        },
+
+    ]
+
+
     return (
         <Container>
-            <ItemSty>
-            <div className="name"> <span style={{fontWeight: 700}}>1. Nome </span>-  500 links  -  1.700.220 visualizações</div>
-            </ItemSty>
+            {array.map((item) => (
+                <ItemSty>
+                <div className="name"> <span style={{fontWeight: 700}}>1. {item.name} </span>-  {item.qty} links  -  {item.views} visualizações</div>
+                </ItemSty>
+            ))}
          </Container>
     )
 }
