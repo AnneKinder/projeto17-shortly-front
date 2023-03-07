@@ -7,6 +7,7 @@ export default function UrlList() {
     let [shortUrl, setShortUrl] = useState("short url")
     let [visitQty, setVisitQty] = useState("quantity")
 
+    let [test, setTest] = useState("testing?")
 
     return (
         <Container>

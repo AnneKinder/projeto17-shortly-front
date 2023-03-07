@@ -8,7 +8,7 @@ import NavBarOut from "../../components/NavBarOut"
 import Logo from "../../components/Logo"
 
 export default function SignUp() {
- // const navigate = useNavigate();
+const navigate = useNavigate();
 
   let [form, setForm] = useState({
     name: "",
@@ -23,14 +23,13 @@ export default function SignUp() {
     if (form.password != form.confirmPassword) {
       alert("As senhas não conferem. Por favor, redigite.");
     } else {
-        alert("Criar usuário/axios")
-    //   axios
-    //     .post("http://localhost:5000/signup", form)
-    //     .then((res) => {
-    //       alert("Usuário criado");
-    //       navigate("/");
-    //     })
-    //     .catch((err) => alert(err.response.data));
+        axios
+          .post("https://shortly-civj.onrender.com/signup", form)
+          .then((res) => {
+            alert("Usuário criado");
+            navigate("/");
+          })
+          .catch((err) => alert(err.response.data));
     }
   }
 
