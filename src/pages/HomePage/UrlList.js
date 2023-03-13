@@ -59,7 +59,7 @@ const ItemSty = styled.div`
             width: 9%;
             height: 60px;
             background: #FFFFFF;
-            box-shadow: 0px 4px 24px rgba(120, 177, 89, 0.12);
+            box-shadow: 0px 4px 20px rgba(120, 177, 89, 0.35);
             border-radius: 0px 12px 12px 0px;
             font-size: 25px;
             color: #EA4F4F;

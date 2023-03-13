@@ -2,7 +2,7 @@ import styled from "styled-components"
 import Logo from "../../components/Logo"
 import NavBarIn from "../../components/NavBarIn"
 import NewLink from "./NewLink"
-import UrlList from "../../components/UrlList"
+import UrlList from "./UrlList"
 
 export default function HomePage(){
     return(

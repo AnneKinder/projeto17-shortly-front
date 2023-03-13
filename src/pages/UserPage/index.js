@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Logo from "../../components/Logo"
 import NavBarIn from "../../components/NavBarIn"
-import UrlList from "./UrlList"
+import LinkList from "./LinkList"
 
 
 export default function UserPage(){
@@ -9,7 +9,7 @@ export default function UserPage(){
         <Container>
             <NavBarIn />
             <Logo />
-            <UrlList />   
+            <LinkList />   
         </Container>
     )
 }

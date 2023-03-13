@@ -15,7 +15,7 @@ export default function NavBarIn() {
 
             <div className="right">
                 <div className="action" onClick={()=>navigate("/home")}>Home</div>
-                <div className="action" onClick={()=>navigate("/users/me")}>Me</div>
+                {/* <div className="action" onClick={()=>navigate("/users/me")}>My Rank</div> */}
                 <div className="action" onClick={()=>navigate("/ranking")}>Ranking</div>
                 <div className="action" onClick={()=>alert("Logout")}>Sair</div>
             </div>
@@ -55,4 +55,5 @@ const Container = styled.div`
     }
 
 `
+
 
