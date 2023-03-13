@@ -1,10 +1,14 @@
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 export default function NavBarOut() {
+
+    const navigate = useNavigate()
+
     return (
         <Container>
-            <div className="action">Entrar</div>
-            <div className="action">Cadastrar-se</div>
+            <div className="action" onClick={()=>navigate("/signin")}>Entrar</div>
+            <div className="action" onClick={()=>navigate("/signup")}>Cadastrar-se</div>
         </Container>
     )
 }

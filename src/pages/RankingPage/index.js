@@ -1,16 +1,18 @@
 import styled from "styled-components"
 import Logo from "../../components/Logo"
+import Trophy from "../../components/Trophy"
 import NavBarIn from "../../components/NavBarIn"
-import NewLink from "./NewLink"
-import UrlList from "../../components/UrlList"
+import RankList from "../../components/RankList"
 
-export default function HomePage(){
+
+
+export default function RankingPage(){
     return(
         <Container>
             <NavBarIn />
             <Logo />
-            <NewLink />
-            <UrlList />
+            <Trophy />
+            <RankList />           
         </Container>
     )
 }
@@ -20,12 +22,4 @@ const Container = styled.div`
    flex-direction: column;
    align-items: center;
 
-   .text{
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 45px;
-    margin-top: 90px;
-   }
 `

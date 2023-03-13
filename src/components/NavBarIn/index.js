@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 export default function NavBarIn() {
 
- const name = 'USER'
+    const navigate = useNavigate()
+    const name = 'USER'
 
     return (
         <Container>
@@ -12,9 +14,10 @@ export default function NavBarIn() {
             </div>
 
             <div className="right">
-                <div className="action">Home</div>
-                <div className="action">Ranking</div>
-                <div className="action">Sair</div>
+                <div className="action" onClick={()=>navigate("/home")}>Home</div>
+                <div className="action" onClick={()=>navigate("/users/me")}>Me</div>
+                <div className="action" onClick={()=>navigate("/ranking")}>Ranking</div>
+                <div className="action" onClick={()=>alert("Logout")}>Sair</div>
             </div>
           
         </Container>
